@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-setup",
+  "version": "1.0.0",
+  "description": "tailwindcss with postcss",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss src/tailwind.css -o dist/tailwind.css --watch"
+  },
+  "author": "codershahid",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.1.8"
+  }
+}
